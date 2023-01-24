@@ -34,5 +34,5 @@
   ```
 
   ## Questions
-  If you have any questions about the repo, openn an issue or contact me
-  directly at ninakrasteva96@gmail.com. You can find more of my work at https://github.com/N-i-n-a .
+  If you have any questions about the repo, open an issue or contact me directly at ninakrasteva96@gmail.com. 
+  You can find more of my work at https://github.com/N-i-n-a .
