@@ -20,13 +20,13 @@ function generateMarkdown(data) {
   ${data.license}
 
   ## Installation
-  ${data.installation}
-  
-  ## Usage
   To install dependancies please run the following command: 
   ${backticks}
-  ${data.usage}
+  ${data.installation}
   ${backticks}
+
+  ## Usage
+  ${data.usage}
 
   ## Contributing
   ${data.contributing}

@@ -26,13 +26,13 @@ const questions = [
     {
         type:'input',
         name:'installation',
-        message: 'What are the steps required to install your project? Please provide a step-by-step description of how to get the development environment running.'
+        message: 'What command should be run to install dependancies?',
+        default: 'npm install'
     },
     {
         type:'input',
         name:'usage',
-        message: 'What command should be run to install dependancies?',
-        default: 'npm install'
+        message: 'Provide instructions and examples for use.'
     },
     {
         type:'input',
@@ -60,7 +60,7 @@ const questions = [
 // function to write README file
 function writeToFile(data) {
     const markdownData = generateMarkdown(data);
-    fs.writeFile('GeneratedREADME.md', markdownData);
+    fs.writeFile('README.md', markdownData);
     console.log(`
 You have successfully generated your readme file.
 The contents of the file are:\n\n${markdownData}`);
@@ -83,3 +83,4 @@ function init() {
 
 // function call to initialize program
 init();
+
